@@ -1,0 +1,49 @@
+#wss{
+    opacity:0;
+    -webkit-transition:opacity 1.0s cubic-bezier(.24,.57,.91,.74) 0s;
+    transition:opacity 1.0s cubic-bezier(.24,.57,.91,.74) 0s;
+    }
+
+body { 
+    margin:0px; background:#999; 
+}
+div#topbar{
+	background:-webkit-linear-gradient(#666, #000);
+	background:linear-gradient(#666, #000);
+	height:60px;
+}
+div#topbar > #wss{
+	float:left;
+	width:230px;
+	height:40px;
+	margin:8px 0px 0px 30px;
+	font-size:36px;
+    color: #F9772C;
+    font-family: 'Nanum Brush Script', cursive;
+}
+div#topbar > #sections_btn_holder{
+	float:left;
+	width:144px;
+	height:46px;
+	padding-top:20px;
+}
+div#topbar > #sections_btn_holder > button{ background:#F90;}
+div#topbar > #sections_panel{
+	position:absolute;
+	height:0px;
+	width:550px;
+	background:#000;
+	top:60px;
+	left:20px;
+	border-radius:0px 0px 8px 8px;
+	overflow:hidden;
+	z-index:10000;
+	transition: height 0.3s cubic-bezier(.24,.57,.91,.74) 0s;
+}
+div#topbar > #sections_panel > div{
+	background:#333;
+	padding:20px;
+	height:238px;
+	margin:10px;
+	color:#FC0;
+}

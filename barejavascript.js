@@ -19,7 +19,7 @@ function wssSlide() {
 wss_elem = document.getElementById("wss"); wssSlide();
 
 function toggleNavPanel(x) {
-    var panel = document.getElementById(x), navarrow = document.getElementById("navarrow"), maxH = "600px";
+    var panel = document.getElementById(x), navarrow = document.getElementById("navarrow"), maxH = "600px"; /* max længde af container skal være større end Css value */
     if (panel.style.height == maxH) {
         panel.style.height = "0px";
         navarrow.innerHTML = "&#5167";

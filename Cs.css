@@ -7,7 +7,7 @@
 body { 
     margin:0px; background:#999; 
 }
-
+/* indholdet i containeren (menubaren) */
  .container {
 	margin: 0%;
 	position: absolute;
@@ -121,13 +121,7 @@ body {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	color: #eab44c;
 }
-
-
-div#topbar{
-	background:-webkit-linear-gradient(#666, #000);
-	background:linear-gradient(#666, #000);
-	height:60px;
-}
+/* array i container */
 #wss{
 	float:left;
 	width:250px;
@@ -138,6 +132,7 @@ div#topbar{
 	font-family: Arial, Helvetica, sans-serif;
 	padding-top: 0px;
 }
+/* knappen til container */
 div#topbar > #sections_btn_holder{
 	float:left;
 	width:100x;
@@ -176,7 +171,7 @@ div#topbar > #sections_panel > div{
 	padding-right: 20px;
 	padding-top: 20px;
 	padding-left: 20px;
-	height:540px;
+	height:540px; /* value skal være mindre en Js value i function - kan ændre hvis menu skal være større */
 	margin-bottom: 10px;
 	margin-right: 10px;
 	margin-top: 10px;

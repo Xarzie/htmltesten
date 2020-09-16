@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>enmegetspændendetittel</title>
-    <script src="barejavascript.js" defer></script>
-    <link rel="stylesheet" type="text/css" href="Cs.css">
-    <link href="https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>enmegetspændendetittel</title>
+  <script src="barejavascript.js" defer></script>
+  <link rel="stylesheet" type="text/css" href="Cs.css">
+  <!--<link href="https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap" rel="stylesheet"> -->
 </head>
+
 <body>
-<div id="topbar">
-  <div id="wss"></div>
-  <div id="sections_btn_holder">
-    <button onclick="toggleNavPanel('sections_panel')">Navigator <span id="navarrow">&#9662;</span></button>
-  </div>
-  <div id="sections_panel">
-    <div>
-        <textarea id="oprydning" name="oprydning" onkeyup="clean('oprydning')" onkeydown="clean('oprydning')"></textarea>
-        <div id="allowedchars"></div>
+  <div id="topbar">
+
+    <div id="sections_btn_holder">
+      <button onclick="toggleNavPanel('sections_panel')">Navigator <span id="navarrow">&#9776;</span></button>
+    </div>
+    <div id="sections_panel">
+      <div>
+        <div id="wss"></div>
+      </div>
+      <!---  <textarea id="oprydning" name="oprydning" onkeyup="clean('oprydning')" onkeydown="clean('oprydning')"></textarea>
+        <div id="allowedchars"></div> -->
     </div>
   </div>
-</div>
-</body>  
+  </div>
+</body>
+
 </html>

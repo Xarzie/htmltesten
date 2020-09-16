@@ -12,18 +12,18 @@ div#topbar{
 	background:linear-gradient(#666, #000);
 	height:60px;
 }
-div#topbar > #wss{
+#wss{
 	float:left;
 	width:230px;
 	height:40px;
-	margin:8px 0px 0px 30px;
+	margin:8px 0px 0px 8px;
 	font-size:36px;
     color: #F9772C;
-    font-family: 'Nanum Brush Script', cursive;
+    font-family: Arial, Helvetica, sans-serif;
 }
 div#topbar > #sections_btn_holder{
 	float:left;
-	width:144px;
+	width:100x;
 	height:46px;
 	padding-top:20px;
 }
@@ -31,19 +31,26 @@ div#topbar > #sections_btn_holder > button{ background:#F90;}
 div#topbar > #sections_panel{
 	position:absolute;
 	height:0px;
-	width:550px;
+	width:350px;
 	background:#000;
-	top:60px;
-	left:20px;
-	border-radius:0px 0px 8px 8px;
+	top:300px;
+	left:0px;
+	border-radius: 0px 8px 8px 0px;
 	overflow:hidden;
 	z-index:10000;
 	transition: height 0.3s cubic-bezier(.24,.57,.91,.74) 0s;
 }
 div#topbar > #sections_panel > div{
 	background:#333;
-	padding:20px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-left: 20px;
 	height:238px;
-	margin:10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-left: 0px;
+
 	color:#FC0;
 }

@@ -7,6 +7,78 @@
 body { 
     margin:0px; background:#999; 
 }
+
+ .container {
+	margin: 0%;
+	position: absolute;
+	top: 20%;
+	left: 10%;
+	display: flex;
+}
+.roundedimages {
+	border-radius: 50%;
+	padding: 3px;
+
+}
+.hjemtekst {
+	position: absolute;
+	top: -20%;
+	left: 140%;
+	font-size: 1.8em;
+	color: #eab44c
+} 
+.facebooktekst {
+	position: absolute;
+	top: 105%;
+	left: 140%;
+	font-size: 1.8em;
+	color: #eab44c
+}
+.facebookbilled {
+	position: absolute;
+	top: 135%;
+	left: 3%;
+}
+.contacttekst {
+	position: absolute;
+	top: 220%;
+	left: 140%;
+	font-size: 1.8em;
+	color: #eab44c;
+}
+.contactbilled {
+	position: absolute;
+	top: 240%;
+	left: 3%;
+}
+.rutetekst {
+	position: absolute;
+	top: 335%;
+	left: 140%;
+	font-size: 1.8em;
+	color: #eab44c;
+}
+
+.rutebilled {
+	position: absolute;
+	top: 375%;
+	left: 20%;
+
+}
+.ingenfarve {
+	text-decoration: none;
+	color: #eab44c;
+}
+.ingenFarve {
+	color: #eab44c;
+	text-decoration: none;
+	text-decoration: underline;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
 div#topbar{
 	background:-webkit-linear-gradient(#666, #000);
 	background:linear-gradient(#666, #000);
@@ -14,26 +86,40 @@ div#topbar{
 }
 #wss{
 	float:left;
-	width:230px;
-	height:40px;
-	margin:8px 0px 0px 8px;
+	width:250px;
+	height:20px;
+	margin-left: 12px;
 	font-size:36px;
-    color: #F9772C;
-    font-family: Arial, Helvetica, sans-serif;
+    color: #eab44c;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-top: 0px;
 }
 div#topbar > #sections_btn_holder{
 	float:left;
 	width:100x;
 	height:46px;
-	padding-top:20px;
+	padding-top:165px;
+	margin-left: 0px;
+	z-index: 20000;
+	
 }
-div#topbar > #sections_btn_holder > button{ background:#F90;}
+div#topbar > #sections_btn_holder > button{ background: #eab44c;
+border: 10px solid #000;
+color: #000;
+text-decoration: none;
+font-size: 16px;
+box-sizing: border-box;
+padding-left: 10px;
+padding-right: 10px;
+margin-left: 0px;
+}
+
 div#topbar > #sections_panel{
 	position:absolute;
-	height:0px;
+	height:300px;
 	width:350px;
 	background:#000;
-	top:300px;
+	top:200px;
 	left:0px;
 	border-radius: 0px 8px 8px 0px;
 	overflow:hidden;
@@ -41,16 +127,16 @@ div#topbar > #sections_panel{
 	transition: height 0.3s cubic-bezier(.24,.57,.91,.74) 0s;
 }
 div#topbar > #sections_panel > div{
-	background:#333;
+	background: #2f2924;
 	padding-bottom: 20px;
 	padding-right: 20px;
 	padding-top: 20px;
 	padding-left: 20px;
-	height:238px;
+	height:540px;
 	margin-bottom: 10px;
 	margin-right: 10px;
 	margin-top: 10px;
 	margin-left: 0px;
 
-	color:#FC0;
+	/* color:#FC0;  Ignore this statement as not required unless container needs div seperation */ 
 }

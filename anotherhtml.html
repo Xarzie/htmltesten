@@ -12,18 +12,24 @@
 
 <body>
   <div id="topbar">
-
     <div id="sections_btn_holder">
-      <button onclick="toggleNavPanel('sections_panel')">Navigator <span id="navarrow">&#9776;</span></button>
+      <button onclick="toggleNavPanel('sections_panel')">&#9776 | <span id="navarrow">&#5167;</span></button>
     </div>
     <div id="sections_panel">
       <div>
         <div id="wss"></div>
+        <div class="container">
+          <a href="#"><img src="homeicon.png" class="roundedImages" width="56px" height="56px"></a>
+          <h2 class="hjemtekst"><a href="#" class="ingenFarve">Hjem</a></h2>
+          <a href="#"><img src="fbicon.png" class="roundedImages facebookbilled" width="56px" height="56px"></a>
+          <h2 class=facebooktekst><a href="#" class="ingenFarve">Facebook</a></h2>
+          <a href="#"><img src="contact.png" class="roundedImages contactbilled" width="56px" height="56px"></a>
+          <h2 class="contacttekst"><a href="#" class="ingenFarve">Kontakt</a></h2>
+          <a href="#"><img src="ruteicon.png" class="roundedImages rutebilled" width="36px" height="36px"></a>
+          <h2 class=rutetekst><a href="#" class="ingenFarve">Rute</a></h2>
+        </div>
       </div>
-      <!---  <textarea id="oprydning" name="oprydning" onkeyup="clean('oprydning')" onkeydown="clean('oprydning')"></textarea>
-        <div id="allowedchars"></div> -->
     </div>
-  </div>
   </div>
 </body>
 

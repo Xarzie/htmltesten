@@ -11,58 +11,56 @@ body {
  .container {
 	margin: 0%;
 	position: absolute;
-	top: 20%;
+	top: 80px;
 	left: 10%;
 	display: flex;
 }
 .roundedimages {
 	border-radius: 50%;
 	padding: 3px;
-
 }
 .hjemtekst {
 	position: absolute;
-	top: -20%;
+	top: -10px;
 	left: 140%;
 	font-size: 1.8em;
 	color: #eab44c
 } 
 .facebooktekst {
 	position: absolute;
-	top: 105%;
+	top: 60px;
 	left: 140%;
 	font-size: 1.8em;
 	color: #eab44c
 }
 .facebookbilled {
 	position: absolute;
-	top: 135%;
+	top: 75px;
 	left: 3%;
 }
 .contacttekst {
 	position: absolute;
-	top: 220%;
+	top: 135px;
 	left: 140%;
 	font-size: 1.8em;
 	color: #eab44c;
 }
 .contactbilled {
 	position: absolute;
-	top: 240%;
-	left: 3%;
+	top: 145px;
+	left: 7%;
 }
 .rutetekst {
 	position: absolute;
-	top: 335%;
+	top: 207px;
 	left: 140%;
 	font-size: 1.8em;
 	color: #eab44c;
 }
-
 .rutebilled {
 	position: absolute;
-	top: 375%;
-	left: 20%;
+	top: 230px;
+	left: 30%;
 
 }
 .ingenfarve {
@@ -75,8 +73,54 @@ body {
 	text-decoration: underline;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
-
+.sprogtekst{
+	position: absolute;
+	top: 300px;
+	left: 77px;
+	font-size: 1.8em;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: #eab44c;
+}
+.underline {
+	position: absolute;
+	top: 320px;
+	left: -44px;
+	font-size: 1.8em;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: #eab44c;
+}
+.danskflag {
+	position: absolute;
+	top: 400px;
+	left: -10%;
+}
+.franskflag {
+	position: absolute;
+	top: 400px;
+	left: 110%;
+}
+.britiskflag {
+	position: absolute;
+	top: 400px;
+	left: 230%;
+}
+.tyskflag {
+	position: absolute;
+	top: 400px;
+	left: 350%;
+}
+.roundedflag {
+	border-radius: 75%;
+	padding: 3px;
+}
+.milmustekst {
+	position: absolute;
+	top: 460px;
+	left: 32px;
+	font-size: 1.2em;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: #eab44c;
+}
 
 
 div#topbar{
@@ -137,6 +181,4 @@ div#topbar > #sections_panel > div{
 	margin-right: 10px;
 	margin-top: 10px;
 	margin-left: 0px;
-
-	/* color:#FC0;  Ignore this statement as not required unless container needs div seperation */ 
 }

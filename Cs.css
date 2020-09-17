@@ -92,22 +92,22 @@ body {
 .danskflag {
 	position: absolute;
 	top: 400px;
-	left: -10%;
+	left: -5px;
 }
 .franskflag {
 	position: absolute;
 	top: 400px;
-	left: 110%;
+	left: 65px;
 }
 .britiskflag {
 	position: absolute;
 	top: 400px;
-	left: 230%;
+	left: 135px;
 }
 .tyskflag {
 	position: absolute;
 	top: 400px;
-	left: 350%;
+	left: 205px;
 }
 .roundedflag {
 	border-radius: 75%;
@@ -137,30 +137,32 @@ div#topbar > #sections_btn_holder{
 	float:left;
 	width:100x;
 	height:46px;
-	padding-top:165px;
+	padding-top:145px;
 	margin-left: 0px;
 	z-index: 20000;
 	
+	
 }
 div#topbar > #sections_btn_holder > button{ background: #eab44c;
-border: 10px solid #000;
+border: 8px solid #000;
+border-radius: 0px 125px 125px 0px;
 color: #000;
 text-decoration: none;
-font-size: 16px;
+font-size: 32px;
 box-sizing: border-box;
-padding-left: 10px;
-padding-right: 10px;
+padding-left: 15px;
+padding-right: 15px;
 margin-left: 0px;
 }
 
 div#topbar > #sections_panel{
 	position:absolute;
-	height:300px;
+	height:0px;
 	width:350px;
 	background:#000;
 	top:200px;
 	left:0px;
-	border-radius: 0px 8px 8px 0px;
+	border-radius: 0px 20px 20px 0px;
 	overflow:hidden;
 	z-index:10000;
 	transition: height 0.3s cubic-bezier(.24,.57,.91,.74) 0s;
@@ -176,4 +178,5 @@ div#topbar > #sections_panel > div{
 	margin-right: 10px;
 	margin-top: 10px;
 	margin-left: 0px;
+	border-radius: 0px 20px 20px 0px;
 }

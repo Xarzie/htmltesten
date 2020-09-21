@@ -140,8 +140,6 @@ div#topbar > #sections_btn_holder{
 	padding-top:145px;
 	margin-left: 0px;
 	z-index: 20000;
-	
-	
 }
 div#topbar > #sections_btn_holder > button{ background: #eab44c;
 border: 8px solid #000;
@@ -179,4 +177,9 @@ div#topbar > #sections_panel > div{
 	margin-top: 10px;
 	margin-left: 0px;
 	border-radius: 0px 20px 20px 0px;
+}
+
+#topbar {
+	position: sticky;
+	top: 0;
 }

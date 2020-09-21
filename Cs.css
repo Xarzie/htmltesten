@@ -151,6 +151,7 @@ box-sizing: border-box;
 padding-left: 15px;
 padding-right: 15px;
 margin-left: 0px;
+outline: none; 
 }
 
 div#topbar > #sections_panel{
